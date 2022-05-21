@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Titillium+Web:wght@400;600;700&display=swap');
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Titillium Web'
+    
+}
+.container{
+    padding: 0 130px;
+}
+
+.header{
+    padding: 20px 0;
+    background-color: rgba(16, 16, 16, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-right: 72px;
+    width: 57px;
+    height: 41px;
+}
+.header-list{
+    margin-right: 71px;
+    display: flex;
+}
+.header-list__item{
+    margin-right: 38px;
+}
+.header-list__item:last-child{
+    margin-right: 0;
+}
+.header-list__item a{
+    text-decoration: none;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    font-family: 'Titillium Web';
+}
+.header__button{
+    padding: 13.5px 33.5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #73F25F;
+    border: 1px solid #FFFFFF;
+    background-color: rgba(16, 16, 16, 1);
+    font-family: 'Titillium Web';
+    cursor: pointer;
+
+}
+.header__button:hover{
+    background-color: #73F25F ;
+    color: rgba(16, 16, 16, 1);
+    border: 1px solid rgba(16, 16, 16, 1);
+}
+
+
+/* Список из карточек с работой */
+
+.title{
+    margin: 80px 0 8px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    color: #101010;
+    text-align: center;
+    font-family: 'Titillium Web';
+
+}
+.subtitle{
+    margin-bottom: 32px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6D7582;
+
+}
+.work{
+    margin-bottom: 48px;
+    display: flex;
+}
+.wrap-work__card{
+
+}
+.work-card{
+    margin-right: 20px;
+    padding: 24px;
+    border: 1px solid rgba(47, 47, 47, 0.2);
+    width: 280px;
+}
+.work-card:last-child{
+    margin-right: 0;
+}
+.work-card__icon{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+.work-card__title{
+  
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #101010;
+   
+}
+.work-card__subtitle{
+   
+    margin-bottom: 34px;
+
+}
+.work-card__subtitle:nth-child(3){
+    margin-bottom: 10px;
+}
+.work-card__subtitle:nth-child(4){
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Список из карточек с менеджерами */
+
+.manager{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.manager-card{
+    margin-bottom: 20px;
+    padding: 24px 16px 24px 32px;
+    background-color: rgba(16, 16, 16, 1);
+
+}
+.manager-card:hover{
+    background-color: #73F25F;
+    color:#101010 ;
+}
+.manager-card__title:hover{
+    color: #101010;
+}
+.manager-card__img:hover{
+
+}
+.manager-card__button:hover{
+    background: #101010;
+    color: #FFFFFF;
+
+}
+.manager-card:last-child{
+    margin-bottom: 0;
+}
+.wrap-manager__top{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.manager-card__title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    color: #FFFFFF;
+
+}
+.manager-card__img{
+    width: 46px;
+    height: 46px;
+
+}
+.manager-card__button{
+    padding: 4px 20px;
+    margin-right: 16px;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: rgba(109, 117, 130, 0.4);
+    
+}
+.manager-card__button:last-child{
+    margin-right: 0;
+}
+
+
+
+
+/* Ссылки на подачу заявок и резюме */
+
+.applications{
+    margin-bottom: 29px;
+    display: flex;
+
+}
+.link{
+    padding: 108px 148px;
+    margin-right: 20px;
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(47, 47, 47, 0.2);
+    position: relative;
+    flex-basis: calc(100%/2);
+}
+.link:last-child{
+    margin-right: 0;
+}
+.link__span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #6D7582;
+    position: absolute;
+    top: 20px;
+    left: 32px;
+}
+.wrap-link{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.wrap-link__text{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #101010;
+
+}
+.wrap-link__icon{
+    width: 16px;
+    height: 16px;
+}
+
+
+/* Форма для получения информации на почту */
+
+.informations{
+    margin-bottom:107px ;
+    padding: 24px 0 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(16, 16, 16, 1) ;
+}
+.informations__title{
+    margin-bottom: 42px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    color: #FFFFFF;
+
+}
+.informations__subtitle{
+    margin-bottom: 18px;
+    color: #6D7582;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.informations-form{
+
+}
+.informations-form__input{
+    padding: 13.5px 137px 13.5px 16px;
+    margin-right: 20px;
+    color: rgba(109, 117, 130, 0.6);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Titillium Web';
+    background-color:  #101010;
+    border: 1px solid #2F2F2F;;
+}
+.informations-form__button{
+    padding: 13.5px 76px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #73F25F;
+    background-color:rgba(16, 16, 16, 1) ;
+    border: 1px solid #FFFFFF;
+}
+.informations-form__button:hover{
+    background-color: #73F25F ;
+    color: rgba(16, 16, 16, 1);
+    border: 1px solid rgba(16, 16, 16, 1);
+}
+
+
+
+
+
+
+/* Футер */
