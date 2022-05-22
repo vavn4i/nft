@@ -317,3 +317,190 @@ li {
 
 
 /* Футер */
+
+
+.footer{
+    padding-top: 44px;
+    padding-bottom: 20px;
+    background: #101010;
+}
+.footer__top{
+    display: flex;
+}
+
+
+/* Левый блок футера */
+
+
+
+.footer__left{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.footer__img{
+    margin-bottom: 68px;
+    margin-left: 37px;
+    width: 527px;
+    height: 403px;
+}
+.footer-list{
+    margin: 0 21px 48px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 590px;
+    
+
+}
+.footer-list__item{
+    margin-right: 76px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footer-list__item:last-child{
+    margin-right: 0;
+}
+.footer-list__item:nth-child(5){
+    margin-right: 95px;
+}
+.footer-list__item:nth-child(6){
+    margin-right: 124px;
+}
+
+.footer-informations{
+    margin-left: 21px;
+    margin-bottom: 24px;
+    display: flex;
+   
+    align-items: center;
+    width: 390px;
+}
+
+.footer-informations__logo{
+    margin-right: 20px;
+    width: 70px;
+    height: 50px;
+}
+.footer-informations__text{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(109, 117, 130, 0.8);
+}
+
+
+
+/* Правый блок футера */
+
+
+.footer__title{
+    margin-bottom: 32px;
+    margin-left: 75px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    
+    color: #FFFFFF;
+}
+.footer-form{
+    margin-left: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-form__input{
+
+    margin-bottom: 20px;
+    padding: 17.5px 0 17.5px 16px ;
+    width: 480px;
+    border: 1px solid #2F2F2F;
+    background-color: rgba(16, 16, 16, 1);
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(109, 117, 130, 0.6);
+}
+
+.footer-form__textarea{
+    margin-bottom: 32px;
+    padding: 16px 0 0 16px;
+    width: 480px;
+    background-color: rgba(16, 16, 16, 1);
+    border: 1px solid #2F2F2F;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(109, 117, 130, 0.6);
+    resize: none;
+}
+
+.footer-form__button{
+    padding: 12.5px 62.5px 13.5px 62.5px;
+    margin-bottom: 81px;
+    display: flex;
+    background: #73F25F;
+    width: 200px;
+    
+}
+.footer-form__button-icon{
+    margin-left: 20px;
+    
+}
+
+.footer-social{
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social__item{
+    padding: 8px;
+    margin-right: 33px;
+    border: 1px solid #2F2F2F;
+}
+.footer-social__item:last-child{
+    margin-right: 0;
+}
+.footer-social__item-icon{
+    width: 24px;
+    height: 24px;
+}
+
+/* Самый нижний блок футера */
+
+.footer__low{
+    padding: 20px 24px 20px 21px;
+    display: flex;
+    justify-content: space-between;
+}
+.low__span{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6D7582;
+}
+.low-social__link{
+    margin-right: 48px;
+    text-decoration: none;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6D7582;
+
+}
+.low-social__link:last-child{
+    margin-right: 0;
+}
+.low-social__link-arrow{
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
